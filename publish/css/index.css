@@ -1,0 +1,87 @@
+body {
+    background-color: #f5f5f5;
+    color: #414141;
+    /*            font-family: 'lucida sans unicode', 'lucida grande', sans-serif;*/
+}
+
+div {
+    /*            border: black 1px solid*/
+}
+
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.content {
+    margin: 50px auto 0px auto;
+}
+
+.header {
+    margin-top: 50px
+}
+
+.header h1 {
+    font: normal normal normal 34px/1.5em 'lucida sans unicode', 'lucida grande', sans-serif;
+    /*左右置中*/
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.header nav {
+    text-align: center;
+   
+}
+
+.header nav span a {
+    margin: 10px 10px;
+    color: #AFAFAF;
+    /*去除超連結底線*/
+    text-decoration: none;
+    transition: color 0.4s ease 0s;
+    font-family: 'Lato',"PingFang SC","Microsoft YaHei",sans-serif;
+}
+
+.header nav span a:hover {
+    color: #808080;
+}
+
+.header nav span a.selected {
+    color: #414141;
+}
+.footer {
+    margin: 25px auto ;
+    width:65%;
+    color: #414141;
+    text-align: right;
+    font-family: 'Lato',"PingFang SC","Microsoft YaHei",sans-serif;
+}
+
+
+/* Router的過場動畫 with react-addons-css-transition-group */
+/* npm install react-addons-css-transition-group --save-dev */
+
+.example-enter {
+    opacity: 0;
+   
+    /* display: none; */
+    transition: opacity .5s ease-in;
+  }
+  
+  .example-enter.example-enter-active {
+    opacity: 1;
+    
+    
+  }
+  
+  .example-leave {
+    opacity: 1;
+    transition: opacity .5s ease-in; 
+  }
+  
+  .example-leave.example-leave-active {
+    opacity: 0;
+    /* display: none; */
+  }
+  

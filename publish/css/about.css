@@ -1,0 +1,80 @@
+/*about*/
+
+.about {
+    position: relative;
+    text-align: center;
+}
+
+.about h2 {
+    font: normal normal normal 30px/1.1em 'open sans', sans-serif;
+    letter-spacing: 1px;
+    margin: 20px auto 20px auto;
+}
+
+.about p {
+    width: 65%;
+    font: normal normal normal 18px/1.2em 'open sans', sans-serif;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about li {
+    text-align: left;
+    width: 55%;
+    margin: 0 auto;
+    list-style-type: disc;
+    font: normal normal normal 18px/1.2em 'open sans', sans-serif;
+}
+
+.about hr {
+    width: 65%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.about .bold{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/***************/
+
+#Profile {
+    position: relative;
+    margin: 80px auto 60px auto;
+    /*   top: 0; right: 0; bottom: 0; left: 0; */
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+}
+
+#Profile:before {
+    content: '';
+    position: absolute;
+    top: -14px;
+    left: -14px;
+    width: 324px;
+    height: 324px;
+    border-radius: 324px;
+    border: 2px solid #2ca9e1;
+    box-shadow: 0 0 5px 0 rgba(0, 149, 217, .9), inset 0 0 5px 0 rgba(0, 149, 217, .9);
+}
+
+#Profile:after {
+    content: '';
+    position: absolute;
+    top: -24px;
+    left: -24px;
+    width: 338px;
+    height: 338px;
+    border-radius: 344px;
+    border: 5px solid #68be8d;
+}
+
+#Profile img {
+    border-radius: 300px;
+    width: 300px;
+    height: 300px;
+}
+
+

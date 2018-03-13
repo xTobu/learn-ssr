@@ -1,0 +1,47 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true
+    },
+    "extends": "airbnb",
+   "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        # "linebreak-style": [
+        #     "error",
+        #     "windows"
+        # ],
+        "linebreak-style": 0,
+
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+
+        "class-methods-use-this": "off",
+        import/no-extraneous-dependencies: [2, { devDependencies: true }],
+        no-console: [2, { allow: ["log", "warn", "error", "info"] }],
+        # arrow-body-style: ["error", "always"]
+
+
+
+    }
+}
